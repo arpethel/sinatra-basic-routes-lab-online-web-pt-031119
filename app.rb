@@ -14,7 +14,7 @@ class App < Sinatra::Base
   end
 
   get '/favorite-song' do
-  "My favorite-song is Like A Stone"
+  "My favorite song is Like A Stone"
 
   # erb :'favorite-song/index.html.erb'
   end
